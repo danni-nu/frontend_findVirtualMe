@@ -7,10 +7,7 @@ function getConsent() {
   return local || cookie || "";
 }
 
-const API_BASE =
-  import.meta?.env?.DEV || process.env.NODE_ENV === "development"
-    ? "http://localhost:5001" // ← 按你的后端端口改
-    : "";
+const API_BASE = import.meta.env.VITE_BACKEND_API;
 
 export default function TelemetryVisit() {
   const { pathname } = useLocation();
