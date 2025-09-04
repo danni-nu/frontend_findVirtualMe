@@ -109,7 +109,7 @@ export default function CookieSettings() {
               </button>
             </div>
             <p className="text-xs text-gray-500 mt-3">
-              Choices are stored in cookies for 15 days.
+              We only use cookies to detect your general location — just down to the city, nothing more.
             </p>
           </div>
         </div>
